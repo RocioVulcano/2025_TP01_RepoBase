@@ -1,4 +1,5 @@
-# Proyecto Base para Práctica de Git
+# Proyecto Base para Práctica de Git - Vulcano
+## TRABAJO PRACTICO RESUELTO Y FINALIZADO :)
 
 Este proyecto es parte del Trabajo Práctico 01 – Git Básico.
 
