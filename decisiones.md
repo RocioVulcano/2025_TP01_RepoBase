@@ -4,20 +4,20 @@
 > **Repo:** https://github.com/RocioVulcano/2025_TP01_RepoBase  
 > **Fecha:** 5 de septiembre de 2025
 
-# DECISIONES Y PASOS PARA LA REALIZACION DEL TRABAJO PRACTICO
+## DECISIONES Y PASOS PARA LA REALIZACION DEL TRABAJO PRACTICO
 
-# PRIMER PASO
+## PRIMER PASO
 
 1. Lo primero que hice fue forkear+clonar el repositorio en mi computadora #comando git clone
 2. Luego, configure user.email y user.name para que todos mis commits queden identificados con mi cuenta y mi persona # se usaron los comandos de git config --global user.* * * *
 3. Ahora, cree el archivo de decisiones.md con el comando # touch decisiones.md
 
-# REALIZAMOS EL PRIMER COMMIT
+## REALIZAMOS EL PRIMER COMMIT
         git add decisiones.md
         git commit -m "docs: agregamos el archivo decisiones.md con primeros cambios"
         git push
 
-# SEGUNDO PASO
+## SEGUNDO PASO
 
 1. Verificamos que estamos en la rama main con git checkout main
 2. Creamos una nueva rama con el comando git switch -c feat/nuevaFuncionalidad. Este comando no solo crea la rama si no que nos mueve a ella automaticamente. Verificamos con git branch -a
@@ -32,7 +32,7 @@
             git commit -m "docs: agregamos info en el archivo info.txt"
 5. Hacemos el push con el comando: git push -u origin feat/nuevaFuncionalidad
 
-# TERCER PASO
+## TERCER PASO
 
 1. Simularemos el error eliminando la primera linea de la funcion que imprime la frase creada anteriormente por pantalla. 
 2. Pusheamos el error
