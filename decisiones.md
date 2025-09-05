@@ -6,18 +6,18 @@
 
 # DECISIONES Y PASOS PARA LA REALIZACION DEL TRABAJO PRACTICO
 
-# PRIMER PASO
+## PRIMER PASO
 
 1. Lo primero que hice fue forkear+clonar el repositorio en mi computadora #comando git clone
 2. Luego, configure user.email y user.name para que todos mis commits queden identificados con mi cuenta y mi persona # se usaron los comandos de git config --global user.* * * *
 3. Ahora, cree el archivo de decisiones.md con el comando # touch decisiones.md
 
-# REALIZAMOS EL PRIMER COMMIT
+## REALIZAMOS EL PRIMER COMMIT
         git add decisiones.md
         git commit -m "docs: agregamos el archivo decisiones.md con primeros cambios"
         git push
 
-# SEGUNDO PASO
+## SEGUNDO PASO
 
 1. Verificamos que estamos en la rama main con git checkout main
 2. Creamos una nueva rama con el comando git switch -c feat/nuevaFuncionalidad. Este comando no solo crea la rama si no que nos mueve a ella automaticamente. Verificamos con git branch -a
@@ -32,7 +32,7 @@
             git commit -m "docs: agregamos info en el archivo info.txt"
 5. Hacemos el push con el comando: git push -u origin feat/nuevaFuncionalidad
 
-# TERCER PASO
+## TERCER PASO
 
 1. Simularemos el error eliminando la primera linea de la funcion que imprime la frase creada anteriormente por pantalla. 
 2. Pusheamos el error
@@ -41,5 +41,20 @@
 5. Ahora, incorporaremos los cambios a mi rama feat/nuevFuncionalidad, ya que esta, no tiene los cambios corregidos del error. Para eso, usamos cherry-pick
 6. Con git fetch --all verificamos que este actualizado, luego con git checkout feat/nuevFuncionalidad nos movemos a esta rama. Identificamos el hash de la modificacion que dio el fix
 y hacemos el push con el comando git cherry-pick (633ceef --> hash). Hacemos el git push. 
+
+## CUARTO PASO
+1. Creamos y aceptamos los PR desde GitHub
+
+## QUINTO Y ULTIMO PASO
+
+1. Establecemos el tag una vez que ya hemos finalizado las tareas. Comadno: git tag -a v1.0 -m "Versión 1.0 - primera version estable del TP1"
+2. Lo pusheamos con el comando git push origin v1.0
+
+### ASI DAMOS POR FINALIZADO EL TP1
+- Configuración inicial.  
+- Funcionalidad.  
+- Hotfix.  
+- PR.  
+- Tag de versión.
 
 
